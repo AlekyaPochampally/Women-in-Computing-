@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F0C5EFE2408E58100351921 /* ResourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0C5EFD2408E58100351921 /* ResourceViewController.swift */; };
+		3F7245292408E5E000D13298 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7245282408E5E000D13298 /* GameViewController.swift */; };
 		3FC64DA62407252000942AF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC64DA52407252000942AF1 /* AppDelegate.swift */; };
 		3FC64DA82407252000942AF1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC64DA72407252000942AF1 /* SceneDelegate.swift */; };
-		3FC64DAA2407252000942AF1 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC64DA92407252000942AF1 /* FirstViewController.swift */; };
-		3FC64DAC2407252000942AF1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC64DAB2407252000942AF1 /* SecondViewController.swift */; };
+		3FC64DAA2407252000942AF1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC64DA92407252000942AF1 /* HomeViewController.swift */; };
+		3FC64DAC2407252000942AF1 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC64DAB2407252000942AF1 /* QuizViewController.swift */; };
 		3FC64DAF2407252000942AF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC64DAD2407252000942AF1 /* Main.storyboard */; };
 		3FC64DB12407252200942AF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FC64DB02407252200942AF1 /* Assets.xcassets */; };
 		3FC64DB42407252200942AF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FC64DB22407252200942AF1 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F0C5EFD2408E58100351921 /* ResourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceViewController.swift; sourceTree = "<group>"; };
+		3F7245282408E5E000D13298 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		3FC64DA22407252000942AF1 /* Women in Computing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Women in Computing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FC64DA52407252000942AF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FC64DA72407252000942AF1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3FC64DA92407252000942AF1 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		3FC64DAB2407252000942AF1 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		3FC64DA92407252000942AF1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3FC64DAB2407252000942AF1 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		3FC64DAE2407252000942AF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FC64DB02407252200942AF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FC64DB32407252200942AF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -60,12 +64,14 @@
 			children = (
 				3FC64DA52407252000942AF1 /* AppDelegate.swift */,
 				3FC64DA72407252000942AF1 /* SceneDelegate.swift */,
-				3FC64DA92407252000942AF1 /* FirstViewController.swift */,
-				3FC64DAB2407252000942AF1 /* SecondViewController.swift */,
+				3FC64DA92407252000942AF1 /* HomeViewController.swift */,
+				3FC64DAB2407252000942AF1 /* QuizViewController.swift */,
 				3FC64DAD2407252000942AF1 /* Main.storyboard */,
 				3FC64DB02407252200942AF1 /* Assets.xcassets */,
 				3FC64DB22407252200942AF1 /* LaunchScreen.storyboard */,
 				3FC64DB52407252200942AF1 /* Info.plist */,
+				3F0C5EFD2408E58100351921 /* ResourceViewController.swift */,
+				3F7245282408E5E000D13298 /* GameViewController.swift */,
 			);
 			path = "Women in Computing";
 			sourceTree = "<group>";
@@ -141,9 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FC64DAC2407252000942AF1 /* SecondViewController.swift in Sources */,
-				3FC64DAA2407252000942AF1 /* FirstViewController.swift in Sources */,
+				3F0C5EFE2408E58100351921 /* ResourceViewController.swift in Sources */,
+				3FC64DAC2407252000942AF1 /* QuizViewController.swift in Sources */,
+				3FC64DAA2407252000942AF1 /* HomeViewController.swift in Sources */,
 				3FC64DA62407252000942AF1 /* AppDelegate.swift in Sources */,
+				3F7245292408E5E000D13298 /* GameViewController.swift in Sources */,
 				3FC64DA82407252000942AF1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
