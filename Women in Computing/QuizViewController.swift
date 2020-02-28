@@ -118,7 +118,7 @@ class QuizViewController: UIViewController {
         default : break
             
         }
-      //  }
+    
     }
 
 }
