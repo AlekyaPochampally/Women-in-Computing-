@@ -9,12 +9,27 @@
 import UIKit
 
 class HomeViewController: UIViewController {
+    @IBOutlet weak var userIdTf:UITextField!
+    @IBOutlet weak var ageTf:UITextField!
+    @IBOutlet weak var genderTf:UITextField!
+    @IBOutlet weak var finalTf:UILabel!
+    
+    
+    @IBAction func submit(sender:Any){
+       // var x:String? = "Login SuccesFull"
+            finalTf.text = "Login Successfull"
+            
+        
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+       
+        
     }
 
 
 }
+
 
