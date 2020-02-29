@@ -9,6 +9,7 @@
 import Foundation
 struct Resource {
     var name:String
+    //var person:Person
     
 }
 
@@ -25,8 +26,8 @@ class Resources {
     }
     
     private var resources:[Resource] = [
-        Resource(name:"Name"),
-        Resource(name:"Antina Borg"),
+       // Resource(name:"Name"),
+        Resource(name:"Antina Borg"), //person: Person(name:"Antina Borg", history: "hello")),
         Resource(name:"Anuradha Annaswamy"),
         Resource(name:"Aarthi Prabhakar"),
         Resource(name:"Augusta Ada Lovelace King"),
