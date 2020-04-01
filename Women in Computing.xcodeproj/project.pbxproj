@@ -12,6 +12,7 @@
 		3F72452B2408E89A00D13298 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F72452A2408E89A00D13298 /* Resources.swift */; };
 		3F7245752409EBF400D13298 /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7245742409EBF400D13298 /* PersonViewController.swift */; };
 		3F7245772409EDCD00D13298 /* person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7245762409EDCD00D13298 /* person.swift */; };
+		3F79D5C0240A0C49002A7B71 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F79D5BF240A0C49002A7B71 /* DashboardViewController.swift */; };
 		3FC64DA62407252000942AF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC64DA52407252000942AF1 /* AppDelegate.swift */; };
 		3FC64DA82407252000942AF1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC64DA72407252000942AF1 /* SceneDelegate.swift */; };
 		3FC64DAA2407252000942AF1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC64DA92407252000942AF1 /* HomeViewController.swift */; };
@@ -27,6 +28,7 @@
 		3F72452A2408E89A00D13298 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
 		3F7245742409EBF400D13298 /* PersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
 		3F7245762409EDCD00D13298 /* person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = person.swift; sourceTree = "<group>"; };
+		3F79D5BF240A0C49002A7B71 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		3FC64DA22407252000942AF1 /* Women in Computing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Women in Computing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FC64DA52407252000942AF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FC64DA72407252000942AF1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				3FC64DA52407252000942AF1 /* AppDelegate.swift */,
 				3FC64DA72407252000942AF1 /* SceneDelegate.swift */,
 				3FC64DA92407252000942AF1 /* HomeViewController.swift */,
+				3F79D5BF240A0C49002A7B71 /* DashboardViewController.swift */,
 				3FC64DAB2407252000942AF1 /* QuizViewController.swift */,
 				3FC64DAD2407252000942AF1 /* Main.storyboard */,
 				3FC64DB02407252200942AF1 /* Assets.xcassets */,
@@ -163,6 +166,7 @@
 				3FC64DAA2407252000942AF1 /* HomeViewController.swift in Sources */,
 				3FC64DA62407252000942AF1 /* AppDelegate.swift in Sources */,
 				3F7245292408E5E000D13298 /* GameViewController.swift in Sources */,
+				3F79D5C0240A0C49002A7B71 /* DashboardViewController.swift in Sources */,
 				3F7245752409EBF400D13298 /* PersonViewController.swift in Sources */,
 				3FC64DA82407252000942AF1 /* SceneDelegate.swift in Sources */,
 			);
