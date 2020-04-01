@@ -17,8 +17,15 @@ class HomeViewController: UIViewController {
     
     @IBAction func submit(sender:Any){
        // var x:String? = "Login SuccesFull"
+        print(userIdTf.text!)
+        if userIdTf.text!.count>0 && ageTf.text!.count>0 && genderTf.text!.count>0{
+           // print(userid)
+           // print("if loop")
             finalTf.text = "Login Successfull"
-            
+        }
+        else {
+            finalTf.text = "Please enter required fields"
+        }
         
     }
 
