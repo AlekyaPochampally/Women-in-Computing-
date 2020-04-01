@@ -90,8 +90,15 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AhW-kr-ad0">
+                                <rect key="frame" x="87" y="659" width="235" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RgC-8W-IbZ">
-                                <rect key="frame" x="87" y="649" width="229" height="21"/>
+                                <rect key="frame" x="137" y="617" width="229" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -104,6 +111,7 @@
                     <navigationItem key="navigationItem" id="jeN-be-fW8"/>
                     <connections>
                         <outlet property="ageTf" destination="Q50-3d-DT5" id="V7J-9i-HtF"/>
+                        <outlet property="errorTf" destination="AhW-kr-ad0" id="nMz-lK-943"/>
                         <outlet property="finalTf" destination="RgC-8W-IbZ" id="ve0-Jx-jgU"/>
                         <outlet property="genderTf" destination="lyD-ZO-9lW" id="eDx-lJ-IZQ"/>
                         <outlet property="userIdTf" destination="art-8h-8Yy" id="9Yz-sp-31M"/>
