@@ -167,7 +167,7 @@
         <!--Person View Controller-->
         <scene sceneID="gcd-RT-Orq">
             <objects>
-                <viewController id="gYc-WE-0DQ" customClass="PersonViewController" customModule="Women_in_Computing" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="personVC" id="gYc-WE-0DQ" customClass="PersonViewController" customModule="Women_in_Computing" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="1R0-XQ-vgR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -347,6 +347,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0bB-ce-UZi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1662" y="354"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="12K-c8-A5G">
+            <objects>
+                <viewController id="JMB-FT-7iI" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EEv-DV-4Ht">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="HuP-JY-6op"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S97-mj-DGo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2476" y="359"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">

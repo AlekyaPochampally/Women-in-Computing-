@@ -17,7 +17,7 @@ class PersonViewController: UIViewController {
     //    }
     //
     var person:Person!
-    
+    var resource:Resource!
     @IBOutlet weak var nameLBL:UILabel!
     @IBOutlet weak var historyLBL:UILabel!
     @IBOutlet weak  var imageUI: UIImage!
@@ -30,8 +30,9 @@ class PersonViewController: UIViewController {
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        nameLBL.text = person.name
-        historyLBL.text = person.history
+        nameLBL.text = resource.name
+        historyLBL.text = resource.history
         
     }
+    
 }

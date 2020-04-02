@@ -9,7 +9,7 @@
 import UIKit
 
 class ResourceViewController: UITableViewController {
-
+    var resource:Resource!
     override func viewDidLoad() {
             super.viewDidLoad()
             
@@ -57,5 +57,13 @@ class ResourceViewController: UITableViewController {
             
             return cell
         }
-        
+        override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+            // 0. Make a MenuItemViewController
+            let personVC = storyboard?.instantiateViewController(withIdentifier: "personVC") as! PersonViewController
+            // 1. Supply the currently chosen restaurant to our MenuTVC
+            personVC.resource = Resources.shared[indexPath.row]
+            
+            // 2. Push the MenuTVC onto the stack
+            navigationController?.pushViewController(personVC, animated: true)
+        }
     }
