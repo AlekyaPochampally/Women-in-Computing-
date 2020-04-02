@@ -323,7 +323,7 @@
         <!--Quiz-->
         <scene sceneID="lUd-Y7-4l1">
             <objects>
-                <viewController id="7Rs-XM-85T" sceneMemberID="viewController">
+                <viewController id="7Rs-XM-85T" customClass="MenuViewController" customModule="Women_in_Computing" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="98q-en-bsu">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
