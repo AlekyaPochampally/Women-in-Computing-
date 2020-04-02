@@ -16,10 +16,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="WOMEN IN COMPUTING" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pIQ-N8-GYn">
-                                <rect key="frame" x="46" y="131" width="298" height="33"/>
+                                <rect key="frame" x="46" y="131" width="331" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Enter Login Information:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hH6-U4-J7a">
@@ -60,30 +60,23 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="art-8h-8Yy">
-                                <rect key="frame" x="211" y="309" width="97" height="34"/>
+                                <rect key="frame" x="217" y="309" width="97" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Q50-3d-DT5">
-                                <rect key="frame" x="191" y="421" width="97" height="34"/>
+                                <rect key="frame" x="217" y="421" width="97" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lyD-ZO-9lW">
-                                <rect key="frame" x="200" y="479" width="97" height="34"/>
+                                <rect key="frame" x="217" y="479" width="97" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RgC-8W-IbZ">
-                                <rect key="frame" x="139" y="647" width="158" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Password:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jFU-kQ-VYf">
                                 <rect key="frame" x="77" y="371" width="79" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -92,11 +85,25 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9gs-9v-08X">
-                                <rect key="frame" x="200" y="358" width="97" height="34"/>
+                                <rect key="frame" x="217" y="358" width="97" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AhW-kr-ad0">
+                                <rect key="frame" x="87" y="659" width="235" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RgC-8W-IbZ">
+                                <rect key="frame" x="137" y="617" width="229" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
@@ -104,6 +111,7 @@
                     <navigationItem key="navigationItem" id="jeN-be-fW8"/>
                     <connections>
                         <outlet property="ageTf" destination="Q50-3d-DT5" id="V7J-9i-HtF"/>
+                        <outlet property="errorTf" destination="AhW-kr-ad0" id="nMz-lK-943"/>
                         <outlet property="finalTf" destination="RgC-8W-IbZ" id="ve0-Jx-jgU"/>
                         <outlet property="genderTf" destination="lyD-ZO-9lW" id="eDx-lJ-IZQ"/>
                         <outlet property="userIdTf" destination="art-8h-8Yy" id="9Yz-sp-31M"/>
@@ -113,7 +121,7 @@
             </objects>
             <point key="canvasLocation" x="1659.4202898550725" y="-320.08928571428572"/>
         </scene>
-        <!--Item-->
+        <!--Resources-->
         <scene sceneID="Da3-S5-OaO">
             <objects>
                 <tableViewController id="lhh-Er-SlW" customClass="ResourceViewController" customModule="Women_in_Computing" customModuleProvider="target" sceneMemberID="viewController">
@@ -150,7 +158,7 @@
                             <outlet property="delegate" destination="lhh-Er-SlW" id="vt2-Kw-iqe"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="1P6-6J-weF"/>
+                    <tabBarItem key="tabBarItem" title="Resources" image="rectangle.grid.2x2.fill" catalog="system" id="1P6-6J-weF"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B3o-DT-bdP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -221,13 +229,13 @@
                         <color key="backgroundColor" systemColor="systemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Second" image="second" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="house" catalog="system" id="cPa-gy-q4n"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="749.27536231884062" y="359.59821428571428"/>
         </scene>
-        <!--Item-->
+        <!--quiz-->
         <scene sceneID="QCf-SC-FWt">
             <objects>
                 <viewController id="5RX-op-Grs" customClass="QuizViewController" customModule="Women_in_Computing" customModuleProvider="target" sceneMemberID="viewController">
@@ -317,7 +325,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="kKR-cw-Mrg"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="mVy-qm-CGz"/>
+                    <tabBarItem key="tabBarItem" title="quiz" image="questionmark.circle" catalog="system" id="mVy-qm-CGz"/>
                     <navigationItem key="navigationItem" id="1My-wg-Xjq"/>
                     <connections>
                         <outlet property="Choice1BTN" destination="Xpz-yz-WKV" id="Lfe-Fl-J8f"/>
@@ -353,11 +361,11 @@
             </objects>
             <point key="canvasLocation" x="0.0" y="0.0"/>
         </scene>
-        <!--First-->
+        <!--Login-->
         <scene sceneID="TUB-Cw-LbQ">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="8tA-T9-y5Y" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" tag="1" title="First" image="first" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" tag="1" title="Login" image="person" catalog="system" id="acW-dT-cKf"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="dyx-fJ-jLk">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -374,8 +382,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="first" width="30" height="30"/>
+        <image name="house" catalog="system" width="64" height="54"/>
         <image name="logo" width="1432" height="878"/>
-        <image name="second" width="30" height="30"/>
+        <image name="person" catalog="system" width="64" height="58"/>
+        <image name="questionmark.circle" catalog="system" width="64" height="60"/>
+        <image name="rectangle.grid.2x2.fill" catalog="system" width="64" height="48"/>
     </resources>
 </document>

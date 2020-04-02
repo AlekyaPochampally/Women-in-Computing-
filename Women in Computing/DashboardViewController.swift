@@ -11,7 +11,7 @@ import UIKit
 class DashboardViewController: UIViewController {
     
     override func viewDidLoad() {
-        navigationItem.title = "Inflation Sensation"
+        navigationItem.title = "Women in Computing"
         
     }
 
