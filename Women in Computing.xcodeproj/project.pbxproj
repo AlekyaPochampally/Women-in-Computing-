@@ -7,19 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F0C5EFE2408E58100351921 /* ResourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0C5EFD2408E58100351921 /* ResourceViewController.swift */; };
+		3F0A8EC02447F50900A90C08 /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0A8EBF2447F50900A90C08 /* Resource.swift */; };
+		3F0A8EC22447F52300A90C08 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0A8EC12447F52300A90C08 /* DetailViewController.swift */; };
+		3F0A8EC42447F53600A90C08 /* ImageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0A8EC32447F53600A90C08 /* ImageTableViewController.swift */; };
 		3F35536E244674D200D87205 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F35536D244674D200D87205 /* SignupViewController.swift */; };
 		3F3EFDE02447CFE900A0C1C0 /* QuestionsBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3EFDDF2447CFE900A0C1C0 /* QuestionsBank.swift */; };
 		3F3EFDE22447D02700A0C1C0 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3EFDE12447D02700A0C1C0 /* Question.swift */; };
 		3F3EFDE42447D0E500A0C1C0 /* QuizzViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3EFDE32447D0E500A0C1C0 /* QuizzViewController.swift */; };
 		3F7245292408E5E000D13298 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7245282408E5E000D13298 /* GameViewController.swift */; };
-		3F72452B2408E89A00D13298 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F72452A2408E89A00D13298 /* Resources.swift */; };
-		3F7245752409EBF400D13298 /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7245742409EBF400D13298 /* PersonViewController.swift */; };
-		3F7245772409EDCD00D13298 /* person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7245762409EDCD00D13298 /* person.swift */; };
 		3F79D5C0240A0C49002A7B71 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F79D5BF240A0C49002A7B71 /* DashboardViewController.swift */; };
 		3F7D0C0E2446461200051A29 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D0C0D2446461200051A29 /* LoginViewController.swift */; };
 		3F7D0C1024464FDA00051A29 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D0C0F24464FDA00051A29 /* GoogleService-Info.plist */; };
-		3F9419712435693A00B8967C /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9419702435693A00B8967C /* MenuViewController.swift */; };
 		3FC64DA62407252000942AF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC64DA52407252000942AF1 /* AppDelegate.swift */; };
 		3FC64DA82407252000942AF1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC64DA72407252000942AF1 /* SceneDelegate.swift */; };
 		3FC64DAA2407252000942AF1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC64DA92407252000942AF1 /* HomeViewController.swift */; };
@@ -34,19 +32,17 @@
 		13CE6A731F93D806FC39063F /* Pods-Women in Computing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Women in Computing.debug.xcconfig"; path = "Target Support Files/Pods-Women in Computing/Pods-Women in Computing.debug.xcconfig"; sourceTree = "<group>"; };
 		270E6673B85B72444BFD80F9 /* Pods_Women_in_Computing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Women_in_Computing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		39B05D19C566C49D4A4A1D07 /* Pods-Women in Computing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Women in Computing.release.xcconfig"; path = "Target Support Files/Pods-Women in Computing/Pods-Women in Computing.release.xcconfig"; sourceTree = "<group>"; };
-		3F0C5EFD2408E58100351921 /* ResourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceViewController.swift; sourceTree = "<group>"; };
+		3F0A8EBF2447F50900A90C08 /* Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		3F0A8EC12447F52300A90C08 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		3F0A8EC32447F53600A90C08 /* ImageTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewController.swift; sourceTree = "<group>"; };
 		3F35536D244674D200D87205 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		3F3EFDDF2447CFE900A0C1C0 /* QuestionsBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsBank.swift; sourceTree = "<group>"; };
 		3F3EFDE12447D02700A0C1C0 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		3F3EFDE32447D0E500A0C1C0 /* QuizzViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizzViewController.swift; sourceTree = "<group>"; };
 		3F7245282408E5E000D13298 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		3F72452A2408E89A00D13298 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
-		3F7245742409EBF400D13298 /* PersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
-		3F7245762409EDCD00D13298 /* person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = person.swift; sourceTree = "<group>"; };
 		3F79D5BF240A0C49002A7B71 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		3F7D0C0D2446461200051A29 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3F7D0C0F24464FDA00051A29 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		3F9419702435693A00B8967C /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		3FC64DA22407252000942AF1 /* Women in Computing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Women in Computing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FC64DA52407252000942AF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FC64DA72407252000942AF1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,15 +99,13 @@
 				3FC64DB22407252200942AF1 /* LaunchScreen.storyboard */,
 				3F7D0C0F24464FDA00051A29 /* GoogleService-Info.plist */,
 				3FC64DB52407252200942AF1 /* Info.plist */,
-				3F0C5EFD2408E58100351921 /* ResourceViewController.swift */,
 				3F7245282408E5E000D13298 /* GameViewController.swift */,
-				3F72452A2408E89A00D13298 /* Resources.swift */,
-				3F7245742409EBF400D13298 /* PersonViewController.swift */,
-				3F7245762409EDCD00D13298 /* person.swift */,
-				3F9419702435693A00B8967C /* MenuViewController.swift */,
 				3F3EFDDF2447CFE900A0C1C0 /* QuestionsBank.swift */,
 				3F3EFDE12447D02700A0C1C0 /* Question.swift */,
 				3F3EFDE32447D0E500A0C1C0 /* QuizzViewController.swift */,
+				3F0A8EBF2447F50900A90C08 /* Resource.swift */,
+				3F0A8EC12447F52300A90C08 /* DetailViewController.swift */,
+				3F0A8EC32447F53600A90C08 /* ImageTableViewController.swift */,
 			);
 			path = "Women in Computing";
 			sourceTree = "<group>";
@@ -267,21 +261,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F0A8EC22447F52300A90C08 /* DetailViewController.swift in Sources */,
 				3F3EFDE22447D02700A0C1C0 /* Question.swift in Sources */,
 				3F7D0C0E2446461200051A29 /* LoginViewController.swift in Sources */,
-				3F0C5EFE2408E58100351921 /* ResourceViewController.swift in Sources */,
-				3F7245772409EDCD00D13298 /* person.swift in Sources */,
 				3FC64DAC2407252000942AF1 /* QuizViewController.swift in Sources */,
-				3F72452B2408E89A00D13298 /* Resources.swift in Sources */,
 				3F3EFDE42447D0E500A0C1C0 /* QuizzViewController.swift in Sources */,
 				3F3EFDE02447CFE900A0C1C0 /* QuestionsBank.swift in Sources */,
-				3F9419712435693A00B8967C /* MenuViewController.swift in Sources */,
 				3FC64DAA2407252000942AF1 /* HomeViewController.swift in Sources */,
+				3F0A8EC42447F53600A90C08 /* ImageTableViewController.swift in Sources */,
 				3FC64DA62407252000942AF1 /* AppDelegate.swift in Sources */,
 				3F7245292408E5E000D13298 /* GameViewController.swift in Sources */,
 				3F35536E244674D200D87205 /* SignupViewController.swift in Sources */,
+				3F0A8EC02447F50900A90C08 /* Resource.swift in Sources */,
 				3F79D5C0240A0C49002A7B71 /* DashboardViewController.swift in Sources */,
-				3F7245752409EBF400D13298 /* PersonViewController.swift in Sources */,
 				3FC64DA82407252000942AF1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
