@@ -626,11 +626,11 @@
             </objects>
             <point key="canvasLocation" x="-904" y="836"/>
         </scene>
-        <!--Item-->
+        <!--Women info-->
         <scene sceneID="Sfi-SD-kM7">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="6ac-3N-3tb" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="mBK-dZ-WlP"/>
+                    <tabBarItem key="tabBarItem" title="Women info" image="person" catalog="system" id="mBK-dZ-WlP"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="LEw-PM-W4m">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
