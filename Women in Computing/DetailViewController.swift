@@ -9,7 +9,8 @@
 import UIKit
 
 class DetailViewController: UIViewController {
-    var resource:Resource! 
+    
+    var resource:Resource!
     var img = UIImage()
     // setting up the UI for the user
     @IBOutlet weak var imgLBL: UIImageView!
