@@ -10,7 +10,7 @@ import Foundation
 class Resource {
     var name:String
     var details:[String]
-    // name of the person and in deatils array we will be storing both name and some description about the person
+    // name of the person and in details array we will be storing both name and some description about the person
     init(name:String,  details:[String]){
         self.name = name
         self.details = details
