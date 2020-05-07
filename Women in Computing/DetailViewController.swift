@@ -11,7 +11,7 @@ import UIKit
 class DetailViewController: UIViewController {
     var resource:Resource! 
     var img = UIImage()
-    
+    // setting up the UI for the user
     @IBOutlet weak var imgLBL: UIImageView!
     @IBOutlet weak var nameLBL: UILabel!
     @IBOutlet weak var descriptionLBL: UITextView!
@@ -21,13 +21,15 @@ class DetailViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     override func viewWillAppear(_ animated: Bool) {
-        
-        nameLBL.text = resource.menu[0]
-        descriptionLBL.text = resource.menu[1]
-        if let image = UIImage(named:"\(resource.menu[0]).jpg") {
+        //setting the name field with name of the person
+        nameLBL.text = resource.details[0]
+        //setting up the description of the user
+        descriptionLBL.text = resource.details[1]
+        // retrieving desired image of the person based upon their name
+        if let image = UIImage(named:"\(resource.details[0]).jpg") {
             imgLBL.image = image
         } else {
-           imgLBL.image = UIImage(named:"Generic Restaurant.jpg")
+           imgLBL.image = UIImage(named:"defaultPerson.jpeg")
         }
         
 

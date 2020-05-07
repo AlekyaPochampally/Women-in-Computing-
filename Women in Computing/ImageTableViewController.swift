@@ -39,12 +39,12 @@ class ImageTableViewController: UITableViewController {
     ///   - indexPath: <#indexPath description#>
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        if let restaurant = Resources.shared[indexPath.row] { 
-            cell.textLabel!.text = restaurant.name
-            if let image = UIImage(named:"\(restaurant.name).jpg") {
+        if let person = Resources.shared[indexPath.row] { 
+            cell.textLabel!.text = person.name
+            if let image = UIImage(named:"\(person.name).jpg") {
                 cell.imageView!.image = image
             } else {
-                cell.imageView!.image = UIImage(named:"Generic Restaurant.jpg")
+                cell.imageView!.image = UIImage(named:"defaultPerson.jpeg")
             }
         }
 
